@@ -31,7 +31,7 @@ public class Apl extends JFrame{
         slist = new JTextArea(5, 15);
         slist.setEditable(false);
         JLabel hint;
-        this.addPropertyChangeListener(new LabelChange());
+        //this.addPropertyChangeListener(new LabelChange());
 
 
         contr = new JPanel(new FlowLayout());
@@ -81,7 +81,7 @@ public class Apl extends JFrame{
 
                 nt=Integer.parseInt(tf[2].getText());
 
-                hint.setText("Hello");
+                //hint.setText("Hello");
 
 
 
@@ -151,10 +151,11 @@ public class Apl extends JFrame{
     }
 
 
-    private class LabelChange implements PropertyChangeListener {
+    /*private class LabelChange implements PropertyChangeListener {
         @Override
         public void propertyChange(PropertyChangeEvent evt) {
             hint.setText("hello");
         }
     }
+     */
 }

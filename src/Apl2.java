@@ -17,14 +17,13 @@ public class Apl2 extends Apl1{
         public void focusGained(FocusEvent e) {
             if (tf[0].getText().equals("name"))
                 tf[0].setText("");
-                //hint.setText("Hello");
+
 
         }
         public void focusLost(FocusEvent e){
             if (tf[0].getText().equals(""))
                 tf[0].setText("name");
-               // hint.setBackground(Color.BLUE);
-            //hint.setText("");
+
         }
 
 
